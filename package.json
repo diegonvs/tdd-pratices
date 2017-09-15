@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter=nyan && zuul --local 1991 -- test.js"
+    "test": "mocha --reporter=nyan && zuul --local 1991 -- test.js",
+    "ci": "mocha --reporter=nyan"
   },
   "author": "Diego Nascimento",
   "license": "ISC",
