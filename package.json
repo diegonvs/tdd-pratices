@@ -1,0 +1,15 @@
+{
+  "name": "testing-tdd-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter=nyan && zuul --local 1991 -- test.js"
+  },
+  "author": "Diego Nascimento",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  }
+}
